@@ -11,8 +11,8 @@
 DHT dht(DHTPIN, DHTTYPE);
 
 String app_ver ="Version 11.05.2022";
-const char* ssid = "H8";
-const char* password = "qwQW1234";
+const char* ssid = "XX";
+const char* password = "xxxxxxxx";
 unsigned char status_RELAY = 0;
 WiFiServer server(80);
 
@@ -36,10 +36,10 @@ int uptime = 0;
 
 //ThingSpeak
 //apikey Switch 3CH
-String apikey = "M3AGP47NAC9JNHT3";
+String apikey = "XXXXXXXXXXXX";
 
 //apikey Test ESP8266
-//String apikey = "2IM324E0SMHBG5IR";
+//String apikey = "XXXXXXXXXXXX";
 
 String fogstatus;
 
